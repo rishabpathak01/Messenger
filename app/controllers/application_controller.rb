@@ -3,9 +3,6 @@ class ApplicationController < ActionController::Base
 
 	def hello
 		render html: "Hello World"
-=======
-	def hello
-		render html: 'hello!!world'
->>>>>>> static-pages
+
 	end
 end
